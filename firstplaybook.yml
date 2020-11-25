@@ -6,3 +6,7 @@
       user:
         name: asad
         state: present   
+    - name: installing httpd
+      yum:
+        name: httpd
+        state: present
